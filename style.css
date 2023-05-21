@@ -1,0 +1,41 @@
+.header-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0 200px 20px 200px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left >.title {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.left > .main-text{ 
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    flex-shrink: 0;
+    
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    float: left;
+    padding: 0 16px;
+    display: block;
+}
